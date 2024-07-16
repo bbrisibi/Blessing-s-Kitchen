@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    background-color: #ebc19c;
+}
+
+header h2 {
+    /* Schrift aus Google Fonts */
+    font-family: "Playwrite PT", cursive;
+    margin: 0;
+    color: #4f4789;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+
+header li {
+    padding: 5px;
+    transition: all 1s; /*langsamer Übergang z.B. beim hover */
+}
+
+/* :hover ist Pseudoklasse die nur aktiv wird, wenn Maus auf dem Element steht (wichtig kein Leerzeichen zwischen Element und : ) */
+header li:hover {
+    background-color: lightgreen;
+}

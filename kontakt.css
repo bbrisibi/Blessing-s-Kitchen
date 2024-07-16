@@ -1,0 +1,43 @@
+div{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+body{
+    background-color: #F4F0BB;
+   background-image: url(./Kontakt.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.boxContainer {
+    margin-top: 30px;
+    display: flex;
+    background-color: #e90e0e;
+    justify-content: center;
+    gap: 50px;
+    margin-top: auto;margin-bottom: auto;
+
+
+
+    
+    /* Schöner Effekt oft als Rahmenersatz verwendet - die Werte könnt ihr euch aus Vorlagen kopieren  */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}
+    main{
+        background-image: none;
+    }
+    main section {
+        border: 1px solid black;
+        width: 400px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    main img{
+        width: 150px;
+        margin-bottom: auto;
+        margin-top: auto;
+        padding-top: 20px
+        
+    }
